@@ -14,4 +14,4 @@
 
 - name: load-templates
   include: ./handlers/elasticsearch-templates.yml
-  when: es_templates
+  when: es_template_files

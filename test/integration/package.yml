@@ -5,5 +5,6 @@
     - { role: elasticsearch, es_config: { "http.port": 9200, "transport.tcp.port":9300, discovery.zen.ping.unicast.hosts: "localhost:9300" }, es_instance_name: "node1" }
   vars:
     es_scripts: true
-    es_templates: true
+    es_template_files: 
+      - basic.json
 #Plugins installed for this test are specified in .kitchen.yml under suite

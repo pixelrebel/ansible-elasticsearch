@@ -12,7 +12,7 @@ update_java: false
 es_restart_on_change: true
 es_plugins_reinstall: false
 es_scripts: false
-es_templates: false
+es_template_files: []
 es_user: elasticsearch
 es_group: elasticsearch
 es_config: {}

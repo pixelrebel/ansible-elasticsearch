@@ -35,7 +35,7 @@
   tags:
       - service
 - include: elasticsearch-templates.yml
-  when: es_templates
+  when: es_template_files
   tags:
       - templates
 - meta: flush_handlers

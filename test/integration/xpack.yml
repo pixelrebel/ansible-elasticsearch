@@ -6,7 +6,8 @@
     "shield.authc.realms.file1.type": "file","shield.authc.realms.file1.order": 0, "shield.authc.realms.native1.type": "native","shield.authc.realms.native1.order": 1 },
     es_instance_name: "shield_node" }
   vars:
-    es_templates: true
+    es_template_files:
+      - basic.json
     es_enable_xpack: true
     es_plugins:
       - plugin: lmenezes/elasticsearch-kopf
